@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>RBSE Back to Basics 1.1</name>
+	<name>RBSE Back to Basics Continued [1.0][1.1][1.2]</name>
 	<author>troopersmith1 - Bishop</author>
 	<supportedVersions>
 		<li>1.0</li>
 		<li>1.1</li>
+		<li>1.2</li>
 	</supportedVersions>
 	<loadAfter>
 		<li>Rah.RBSEHC</li>
 		<li>Rah.RBSE</li>
 	</loadAfter>
-	<url>https://gitgud.io/Bishop/rbse-basics</url>
 	<packageId>troopersmith1.RBSEBackToBasics</packageId>
 	<description>Taking Rah's Bionics and Surgery Expansion back to the basics!  I love Rah. But I also love stupid pawns.  And stupid pawns need prostheses, too!
 

@@ -9,7 +9,7 @@
 				</mods>
 				<match Class="PatchOperationSequence">
 					<success>Always</success>
-					   <operations>
+					    <operations>
 					   
 						<!-- Change basic prosthetic research requirements -->
 							<li Class="PatchOperationReplace">
@@ -142,6 +142,24 @@
 									<researchPrerequisite>Prosthetics</researchPrerequisite>
 								</value>
 							</li>
+							
+						</operations>
+				</match>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationFindMod">
+				<mods>
+					<li>Rah's Bionics and Surgery Expansion</li>
+					<li>RBSE Hardcore Edition</li>
+				</mods>
+					
+				<match Class="PatchOperationSequence">
+					<success>Always</success>
+					    <operations>
 
 						<!-- Simple prosthetics -->
 							<li Class="PatchOperationReplace">
@@ -201,8 +219,8 @@
 								</value>
 							</li>
 						</operations>
-					</match>
-				</li>
+				</match>
+			</li>
 		</operations>
 	</Operation>
 
