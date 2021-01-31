@@ -65,7 +65,7 @@
     </ThingDef>
 
     <ThingDef ParentName="Basic">
-        <defName>denture</defName>
+        <defName>Denture</defName>
         <label>denture</label>
         <description>Replaces a missing jaw with wooden teeth. Smells a bit.</description>
         <graphicData>
@@ -95,7 +95,7 @@
     <ThingDef ParentName="Basic">
         <defName>WoodenFoot</defName>
         <label>wooden foot</label>
-        <description>Replaces missing feet with a wooden log. At least it's more comfortable than hopping around.</description>
+        <description>Replaces a missing foot with a wooden imitation. At least it's more comfortable than hopping around.</description>
         <graphicData>
             <texPath>Things/Item/BodyPart/BasicProsthesis</texPath>
             <graphicClass>Graphic_Single</graphicClass>

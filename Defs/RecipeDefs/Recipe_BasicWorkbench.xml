@@ -16,7 +16,7 @@
 	<RecipeDef ParentName="RecipeBasicProsthesis">
 		<defName>CreateSteelArm</defName>
 		<label>Craft steel arm</label>
-		<description>Crafts a steel arm from steel.</description>
+		<description>Crafts an arm from steel.</description>
 		<jobString>Crafting prosthesis.</jobString>
 		<soundWorking>Recipe_Smith</soundWorking>
 		<products>
@@ -81,7 +81,7 @@
 						<li>Textiles</li>
 					</categories>
 				</filter>
-				<count>15</count>
+				<count>10</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -94,7 +94,7 @@
 	<RecipeDef ParentName="RecipeBasicProsthesis">
 		<defName>CreateHookHand</defName>
 		<label>Craft hook hand</label>
-		<description>Tailors a hook hand from fabric and metal.</description>
+		<description>Tailors a hook hand from metal.</description>
 		<jobString>Crafting prosthesis.</jobString>
 		<soundWorking>Recipe_Smith</soundWorking>
 		<products>
@@ -107,24 +107,13 @@
 						<li>Steel</li>
 					</thingDefs>
 				</filter>
-				<count>15</count>
-			</li>
-			<li>
-				<filter>
-					<categories>
-						<li>Textiles</li>
-					</categories>
-				</filter>
-				<count>20</count>
+				<count>25</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
 			</thingDefs>
-			<categories>
-				<li>Textiles</li>
-			</categories>
 		</fixedIngredientFilter>
 	</RecipeDef>
 
@@ -150,7 +139,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<denture>1</denture>
+			<Denture>1</Denture>
 		</products>
 		<skillRequirements>
 			<Crafting>7</Crafting>

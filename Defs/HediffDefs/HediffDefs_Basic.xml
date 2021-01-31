@@ -37,19 +37,9 @@
         <spawnThingOnRemoved>EarBandage</spawnThingOnRemoved>
         <addedPartProps>
             <solid>true</solid>
-            <partEfficiency>1.0</partEfficiency>
-            <betterThanNatural>false</betterThanNatural>
+            <partEfficiency>0.6</partEfficiency>
+			<betterThanNatural>false</betterThanNatural>
         </addedPartProps>
-        <stages>
-            <li>
-            <capMods>
-                <li>
-                    <capacity>Hearing</capacity>
-                    <offset>-0.25</offset>
-                </li>
-            </capMods>
-            </li>	 
-        </stages>
     </HediffDef>
 
     <HediffDef ParentName="addedPartSimple">
@@ -60,46 +50,9 @@
         <spawnThingOnRemoved>EyePatch</spawnThingOnRemoved>
         <addedPartProps>
             <solid>true</solid>
-            <partEfficiency>1.0</partEfficiency>
+            <partEfficiency>0</partEfficiency>
             <betterThanNatural>false</betterThanNatural>
         </addedPartProps>
-        <stages>
-            <li>
-            <capMods>
-                <li>
-                    <capacity>Sight</capacity>
-                    <offset>-0.25</offset>
-                </li>
-            </capMods>
-            </li>	 
-        </stages>
-    </HediffDef>
-
-    <HediffDef ParentName="addedPartSimple">
-        <defName>denture</defName>
-        <label>denture</label>
-        <labelNoun>a denture</labelNoun>
-		<description>Replaces a missing jaw with wooden teeth. Smells a bit.</description>
-        <spawnThingOnRemoved>denture</spawnThingOnRemoved>
-        <addedPartProps>
-            <solid>true</solid>
-            <partEfficiency>1.0</partEfficiency>
-            <betterThanNatural>false</betterThanNatural>
-        </addedPartProps>
-        <stages>
-            <li>
-            <capMods>
-                <li>
-                    <capacity>Talking</capacity>
-                    <offset>-0.3</offset>
-                </li>
-                <li>
-                    <capacity>Eating</capacity>
-                    <offset>-0.3</offset>
-                </li>
-            </capMods>
-            </li>	 
-        </stages>
     </HediffDef>
 
 </Defs>
