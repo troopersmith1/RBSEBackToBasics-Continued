@@ -101,7 +101,7 @@
 					<spawnThingOnRemoved>PegLeg</spawnThingOnRemoved>
 				</value>
 			</li>
-			<li Class="PatchOperationReplace">
+			<!-- <li Class="PatchOperationReplace">
 				<xpath>Defs/RecipeDef[defName="InstallHookHand"]</xpath>
 				<value>
 					<RecipeDef ParentName="SurgerySimple">
@@ -149,7 +149,7 @@
 				<value>
 					<spawnThingOnRemoved>HookHand</spawnThingOnRemoved>
 				</value>
-			</li>
+			</li> -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/RecipeDef[defName="InstallWoodenFoot"]</xpath>
 				<value>
